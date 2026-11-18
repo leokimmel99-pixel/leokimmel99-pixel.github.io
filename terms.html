@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Terms &amp; accessibility — Clearvoice</title>
+<link rel="stylesheet" href="/styles.css?v=67" />
+<style>
+  .legal { max-width: 46rem; margin: 0 auto; padding: 32px 20px 96px; }
+  .legal h1 { margin: 0 0 6px; }
+  .legal h2 { margin: 34px 0 10px; font-size: 1.12rem; }
+  .legal p, .legal li { line-height: 1.62; color: var(--dim); }
+  .legal strong { color: var(--ink); }
+  .legal ul { padding-left: 1.1rem; }
+  .legal li { margin: 7px 0; }
+  .legal .updated { color: var(--dimmer); font-size: 0.92rem; }
+  .legal .back { display: inline-block; margin-bottom: 22px; }
+  .legal .callout { border: 1px solid var(--line); padding: 14px 16px; margin: 18px 0; }
+  .legal .callout p:last-child { margin-bottom: 0; }
+  /* Links were inheriting the browser default #0000ee on a near-black page — 2.08:1, which axe
+     correctly failed. These pages are the ones a person reads to find out what happens to their
+     voice, so unreadable links here are worse than cosmetic. --blue is the app's own accent. */
+  .legal a { color: var(--blue, #6EA8FE); text-underline-offset: 3px; }
+  .legal a:hover, .legal a:focus-visible { color: var(--ink, #EAF0FB); }
+</style>
+</head>
+<body>
+<main class="legal">
+  <a class="back" href="/">← Back to Clearvoice</a>
+  <h1>Terms &amp; accessibility</h1>
+  <p class="updated">Last updated 19 October 2026.</p>
+
+  <h2>What Clearvoice is</h2>
+  <p>Clearvoice is a free tool that listens to speech and shows and speaks the words back. It is
+  built for people whose speech is often misunderstood. It runs in your browser, on your device.</p>
+
+  <h2>What it costs</h2>
+  <p><strong>Nothing.</strong> There is no charge, no subscription, no trial, no account, and no
+  payment of any kind is ever taken. Because nothing is sold there is nothing to refund — if you
+  ever see a page asking you to pay for Clearvoice, it is not us.</p>
+
+  <h2>What it is not</h2>
+  <div class="callout">
+    <p>Clearvoice is <strong>not a medical device</strong> and gives no diagnosis, assessment, or
+    treatment. It is not a substitute for a speech and language therapist, a clinician, or any
+    professional care. Nothing it produces should be relied on for a medical, legal, financial, or
+    safety-critical decision.</p>
+  </div>
+  <p>It is <strong>not an emergency service</strong>. Do not rely on it to call for help or to
+  communicate in an emergency. It can mishear, it can fail to hear at all, and it needs a working
+  device and microphone.</p>
+
+  <h2>It will get things wrong</h2>
+  <p>Speech recognition is imperfect, and it is hardest on exactly the speech this app exists to
+  serve. It will misrecognise words. Always check what it produced before relying on it, especially
+  before sending it to someone else. The app shows you what it heard so you can correct it, and
+  corrections are what make it better.</p>
+
+  <h2>Cookies</h2>
+  <p>None. Clearvoice sets no cookies of any kind. It stores what it has learned on your device
+  because that is how it works offline — see the <a href="/privacy">privacy notice</a> for exactly
+  what, and how to erase it.</p>
+
+  <h2>Fair use</h2>
+  <p>Please use Clearvoice to communicate. Do not use it to impersonate someone, to break the law,
+  or to attack the service. Automated use of the shared training pool is blocked. There is a daily
+  limit on shared recordings per device to keep the pool usable.</p>
+
+  <h2>Your recordings</h2>
+  <p>Anything you record stays yours. If you choose to share recordings, you are giving permission
+  to use them to train and improve speech recognition in Clearvoice — nothing else. They are not
+  sold, licensed, or passed to advertisers. You can withdraw that permission and delete what you
+  have shared at any time from Settings. See the
+  <a href="/privacy">privacy notice</a> for the detail.</p>
+
+  <h2>No warranty, and limits</h2>
+  <p>Clearvoice is provided as is, with no guarantee that it will work, be accurate, or be
+  available. It is a free, independent project maintained by one person. To the extent the law
+  allows, we are not liable for loss arising from using it or from being unable to use it. Where
+  local law gives you rights that cannot be excluded, those rights still apply.</p>
+
+  <h2>Accessibility</h2>
+  <p>This is an accessibility tool, so its own accessibility matters more than most.</p>
+  <ul>
+    <li><strong>Target:</strong> WCAG 2.2 Level AA.</li>
+    <li><strong>Current state:</strong> tested with axe-core across every screen, including the
+      first-run flow and every dialog. No violations were found at the time of writing.</li>
+    <li><strong>Tested for:</strong> colour contrast, keyboard operation, visible focus, form
+      labelling, touch target size, and screen-reader names for every control.</li>
+    <li><strong>Known limits:</strong> automated testing cannot prove usability. It has not been
+      tested end to end with every screen reader, and it has not been formally reviewed by
+      disabled testers other than its own users.</li>
+  </ul>
+  <p>If any part of Clearvoice is hard or impossible for you to use, that is a fault worth fixing —
+  please say so using the contact route below and describe what happened.</p>
+
+  <h2>Changes and ending</h2>
+  <p>These terms may change; material changes will be surfaced in the app rather than only posted
+  here. Clearvoice may be changed or discontinued at any time. Because everything is stored on your
+  device, you can export your data at any point from Settings.</p>
+
+  <h2>Credits</h2>
+  <p>The voice lock ("Only respond to my voice") uses the WeSpeaker ResNet34 speaker model from the
+  WeNet open-source community, trained on VoxCeleb, used under the
+  <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> licence.</p>
+  <p>The speech recognition model was trained in part on recordings from the
+  <a href="https://speechaccessibilityproject.beckman.illinois.edu/">Speech Accessibility Project</a>
+  at the University of Illinois Urbana-Champaign, used under its data use agreement. Clearvoice is
+  independent; this credit does not mean the project or the University endorses it.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about these terms, data requests, or anything about Clearvoice that is hard or
+  impossible for you to use: <a href="mailto:clearvoice64@gmail.com?subject=Clearvoice">clearvoice64@gmail.com</a>.</p>
+  <p>If something in the app is not usable for you, please say what you were trying to do and what
+  happened. That is a fault worth fixing, not a complaint.</p>
+</main>
+</body>
+</html>
