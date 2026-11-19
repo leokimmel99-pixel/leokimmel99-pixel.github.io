@@ -37,7 +37,7 @@
   what the app stores, what — if anything — leaves your device, and how to get rid of it.</p>
 
   <div class="callout">
-    <p><strong>The short version.</strong> You sign in with an email address or with Google, so the
+    <p><strong>The short version.</strong> You sign in with an email address, with Google or with Apple, so the
     app can keep your progress with you on any phone or computer. Speech recognition still runs
     entirely on your device. Recordings you have checked (marked Correct, or fixed) are saved to your
     account once you answer the app's question about your recordings, Share or Keep private: Keep private
@@ -66,8 +66,8 @@
       set up the same way. It is health information, so it is used only to change how the app works
       for you. It is not part of anything you share, you can change or clear it at any time in
       Settings, and deleting your account deletes it.</li>
-    <li><strong>What never leaves the device</strong> — your voiceprint, the sound-prints the app
-      uses to recognise taught words, and your device code. Your practice recordings stay on the
+    <li><strong>What never leaves the device</strong> — your voiceprint and the sound-prints the app
+      uses to recognise taught words. Your practice recordings stay on the
       device too, unless you chose Share or Keep private (see below).</li>
     <li>You stay signed in until you choose <strong>Sign out</strong> in Settings. Your
       account is just for you; please don't share it.</li>
@@ -182,10 +182,15 @@
   record anything.</p>
 
   <h2>Who processes it</h2>
-  <p>Your account, your private recordings and shared recordings are stored with <strong>Supabase</strong>, which provides
+  <p>Your account, your private recordings, shared recordings and your own model are stored with <strong>Supabase</strong>, which provides
   sign-in, the database and file storage on our behalf and does not use the content for its own
   purposes. If you sign in with Google, <strong>Google</strong> confirms who you are and tells us
-  your email address. The site is served by <strong>Vercel</strong>. No other company receives your
+  your email address. If you sign in with Apple, <strong>Apple</strong> confirms who you are and tells us
+  your email address, or a relay address if you chose Hide My Email. When your own model is trained, the
+  training runs on a rented cloud computer from <strong>Modal</strong>, which receives only your checked
+  recordings for that run and keeps nothing afterwards. The website is served by <strong>Vercel</strong>,
+  and this privacy page, the terms and the support page by <strong>GitHub Pages</strong>; like any web
+  host, they see your IP address when you open a page. No other company receives your
   data.</p>
 
   <h2>Test version only: diagnostics</h2>
